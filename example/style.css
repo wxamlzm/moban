@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.regtable {
+  width: 500px;
+  margin: 0px auto;
+}
+.regtable table,td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+.main .input {
+  width: 300px;
+}
+
+.main .input [type],[type='number'] {
+  width: 90%;
+}
