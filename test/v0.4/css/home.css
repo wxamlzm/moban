@@ -1,0 +1,68 @@
+/* 导航栏部分 */
+.nav-part {
+  height: 50px;
+  /* background-color: lightblue; */
+}
+.nav-part > div > div {
+  float: left;
+  line-height: 40px;
+}
+.nav-part > div img {
+  display: block;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.nav-part > div > ul {
+  float: right;
+}
+.nav-part ul > li {
+  /* 设置浮动 */
+  float: left;
+  /* 设置宽度 这里更合适用定间距的方式*/
+  /* width: 100px; */
+  /* 文字居中对齐 */
+  /* 设置左右的边距 */
+  padding: 0 20px;
+  text-align: center;
+  /* 文字垂直对齐 */
+  line-height: 50px;
+}
+.nav-part ul > li:last-child {
+  margin-left: 80px;
+}
+/* banner部分 */
+.banner-part > div {
+  background-image: url(../img/banner-bg.png);
+  padding: 60px 300px ;
+}
+.banner-part .search-part > h3 {
+  color: #FFF;
+  font-size: 50px;
+  font-weight: 300;
+  padding: 30px 0;
+  text-align: center;
+}
+.banner-part .search-part > div {
+  padding: 30px 0;
+  text-align: center;
+  position: relative;
+}
+.banner-part .search-part  input[type='search'] {
+  width: 50%;
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+.banner-part .search-part input[type='button'] {
+  position: absolute;
+  right: 25%;
+  width: 15%;
+  padding: 10px 10px;
+  background-color: #000;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: #FFF;
+}
+.banner-part .search-part p {
+  padding: 20px 145px;
+  color: #FFF;
+}
